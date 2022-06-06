@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan tabel</title>
+</head>
+<body>
+<p><b>Tabel Sederhana</b></p>
+<table>
+	<tr>
+		<!-- tr untuk baris -->
+		<!-- td untuk kolom -->
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+	<tr>
+		<td>baris 2, kolom 1</td>
+		<td>baris 2, kolom 2</td>
+	</tr>
+</table>
+<br><br><br>
+<p><b>Tabel Complex</b></p>
+	<table>
+		<thead>
+			<tr>
+				<th></th> 
+				<!-- th untuk table header -->
+				<th>kolom 1</th>
+				<th>kolom 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>baris 1</th>
+				<td>Baris 1, kolom 1</td>
+				<td>Baris 1, Kolom 2</td>
+			</tr>
+			<tr>
+				<th>Baris 2</th>
+				<td>Baris 2, Kolom 1</td>
+				<td>Baris 2, Kolom 2</td>
+			</tr>
+		</tbody>
+	</table>
+<br><br><br>
+<p><b>Atribut pada Table</b></p>
+<ul>
+	<li><b>Border</b> (saat css) = memberi garis pada tabel</li>
+	<li><b>Cellspacing</b> (saat css) = memberi jarak pada cell</li>
+	<li><b>Cellpading</b> (saat css) = memberi luas pada cell</li>
+	<li><b>colspan</b> menggabungkan 2 atau lebih kolom</li>
+	<li><b>rowspan</b> menggabungkan 2 atau lebih baris</li>
+</ul>
+
+<p><b>Table dengan atribut</b></p>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+	<tr>
+		<td>baris 2, kolom 1</td>
+		<td>baris 2, kolom 2</td>
+	</tr>
+</table>
+
+<p><b>Contoh colspan dan rowspan</b></p>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td rowspan="3">rowspan 3</td>
+		<td colspan="2">colspan 2</td>
+	</tr>
+	<tr>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+
+<p><b>latihan</b></p>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td>1,2</td>
+		<td>1,3</td>
+		<td>1,4</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td rowspan="2" colspan="2"></td>
+		<td>2,4</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,4</td>
+	</tr>
+	<tr>
+		<td>4,1</td>
+		<td>4,2</td>
+		<td>4,3</td>
+		<td>4,4</td>
+	</tr>
+</table>
+
+</body>
+</html>
